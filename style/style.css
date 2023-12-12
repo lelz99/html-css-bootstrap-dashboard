@@ -61,7 +61,7 @@ a > p{
 main{
     flex-grow: 1;
     overflow: auto;
-    background-color: yellow;
+    background-color: #f8f9fa;
 }
 
 /* Jumbotron */
@@ -72,4 +72,17 @@ main{
 
 .jumbotron .badge{
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Section Card */
+
+
+/* Graphic */
+
+.card{
+    font-size: 14px;
+}
+
+u{
+    font-size: 12px;
 }
