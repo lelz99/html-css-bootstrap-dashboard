@@ -80,6 +80,13 @@ main{
 
 /* Section Card */
 
+/* TO DO */
+
+.list-group-item input{
+    position: relative;
+    top: 2px;
+}
+
 /* FAQ */
 
 .accordion-button{
