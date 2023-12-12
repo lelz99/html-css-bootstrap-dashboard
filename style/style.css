@@ -9,6 +9,10 @@ ul{
     list-style: none;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 /* Utils */
 
 /* Header */
@@ -21,10 +25,11 @@ header{
 #logo-small{
     display: inline-block;
     max-width: 50px;
+    margin-left: 10px;
 }
 
-li{
-    margin:0 10px;
+header li{
+    margin: 0 10px;
 }
 
 /* Main Content */
@@ -36,8 +41,19 @@ li{
 /* Sidebar */
 
 .sidebar{
-    flex-basis: 60px;
-    background-color: black;
+    flex-basis: 80px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+.sidebar a i{
+    margin-right: 10px;
+}
+
+a > p{
+    margin: 0 auto;
+    font-weight: bold;
+    display: none;
 }
 
 /* Main */
