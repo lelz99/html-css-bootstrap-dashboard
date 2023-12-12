@@ -63,3 +63,13 @@ main{
     overflow: auto;
     background-color: yellow;
 }
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color: #1b72e8;
+}
+
+.jumbotron .badge{
+    background-color: rgba(0, 0, 0, 0.3);
+}
