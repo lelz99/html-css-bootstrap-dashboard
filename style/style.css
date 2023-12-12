@@ -2,4 +2,48 @@
 
 body{
     font-family: sans-serif;
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Utils */
+
+/* Header */
+
+header{
+    height: 80px;
+    background-color: #f8f9fa;
+}
+
+#logo-small{
+    display: inline-block;
+    max-width: 50px;
+}
+
+li{
+    margin:0 10px;
+}
+
+/* Main Content */
+
+.main-content{
+    height: calc(100vh - 80px);
+}
+
+/* Sidebar */
+
+.sidebar{
+    flex-basis: 60px;
+    background-color: black;
+}
+
+/* Main */
+
+main{
+    flex-grow: 1;
+    overflow: auto;
+    background-color: yellow;
 }
