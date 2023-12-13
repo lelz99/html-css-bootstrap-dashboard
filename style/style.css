@@ -2,7 +2,6 @@
 
 body{
     font-family: sans-serif;
-    overflow: hidden;
 }
 
 ul{
@@ -46,6 +45,7 @@ header li{
 
 .sidebar{
     flex-basis: 80px;
+    flex-shrink: 0;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
 }
@@ -78,6 +78,27 @@ main{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* OFFCANVAS */
+
+.offcanvas-end{
+    width: 100%;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas-end{
+      width: 50%;
+    }
+}
+
 /* Section Card */
 
 /* TO DO */
@@ -94,6 +115,10 @@ main{
 }
 
 /* Graphic */
+
+img{
+    max-width: 100%;
+}
 
 .card{
     font-size: 14px;
