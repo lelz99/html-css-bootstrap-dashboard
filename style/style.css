@@ -101,6 +101,19 @@ label{
 
 /* Section Card */
 
+/* Table */
+
+td{
+    line-height: 30px;
+    text-align: center;
+}
+ 
+#class-avatar{
+    max-width: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
 /* TO DO */
 
 .list-group-item input{
