@@ -108,7 +108,7 @@ td{
     text-align: center;
 }
  
-#class-avatar{
+.class-avatar{
     max-width: 25px;
     border-radius: 50%;
     margin-right: 5px;
